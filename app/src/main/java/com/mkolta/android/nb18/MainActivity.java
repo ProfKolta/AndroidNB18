@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity
         this.mGestureDetector = new GestureDetectorCompat(this,this);
         mGestureDetector.setOnDoubleTapListener(this);
 
-       mButton.setOnClickListener(new Button.OnClickListener(){
+        mButton.setOnClickListener(new Button.OnClickListener(){
             @Override
             public void onClick(View v) {
 
